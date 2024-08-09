@@ -12,9 +12,7 @@ class BankAccount{
     //     this.accountBalance = 0;
     // }
 
-    
-    constructor(accountNumber:number, custId:number,accountType:string, accountBalance:number)
-    {
+    constructor(accountNumber:number, custId:number,accountType:string, accountBalance:number){
         this.accountNumber = accountNumber;
         this.custId = custId;
         this.accountType = accountType;
